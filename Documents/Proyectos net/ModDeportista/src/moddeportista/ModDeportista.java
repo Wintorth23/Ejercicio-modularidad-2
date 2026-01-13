@@ -39,7 +39,7 @@ public class ModDeportista {
         double promedio = rendimientoService.calcularPromedio(dep.getMarcas());
         boolean alto = rendimientoService.esRendimientoAlto(promedio);
 
-        System.out.print("¿Desea aplicar mejora? (1=Sí / 0=No): ");
+        System.out.print("Desea aplicar mejora(1=Si / 0=No): ");
         int op = sc.nextInt();
 
         if (op == 1) {
